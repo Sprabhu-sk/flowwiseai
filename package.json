@@ -1,0 +1,12 @@
+{
+  "name": "flowwiseai",
+  "version": "1.0.0",
+  "description": "Chatflows for Flowise",
+  "main": "index.js",
+  "scripts": {
+    "start": "flowise start"
+  },
+  "dependencies": {
+    "flowise": "^1.4.0"
+  }
+}
