@@ -1,0 +1,10 @@
+version: '3.8'
+services:
+  flowwise:
+    build: .
+    ports:
+      - "3000:3000"
+    volumes:
+      - ./chatflows:/app/chatflows
+    env_file:
+      - .env
